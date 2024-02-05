@@ -1,0 +1,277 @@
+	table{
+	width:100%; height:30%;
+	}
+	.table-1 ,.table-1 th,.table-1 td{
+	border:1px solid black;
+	border-collapse:collapse;
+
+	
+	}
+	.table-1 td{
+	text-align:center;
+	} 
+	.table-2 ,.table-2 th,.table-2 td{
+	border:1px solid black;
+	border-collapse:collapse;
+	margin-top:10px;
+	text-align:center;
+	}
+	.table-3 ,.table-3 th,.table-3 td{
+	border:1px solid black;
+	margin-top:10px;
+	text-align:center;
+	}
+	.table-3 tr:nth-child(even){
+		background-color:aliceblue;
+	}
+	.table-4 ,.table-4 th,.table-4 td{
+	border:1px solid black;
+	margin-top:10px;
+	}
+	.blue{
+		background-color:aliceblue;
+	}
+	.green{
+		background-color:#e4fde4;
+	}
+	.img{  
+		border:1px solid #000;
+	position:relative; }
+	.fix{
+		border-radius:50%;
+		border:1px solid #000;
+		padding:10px;
+		position:fixed;
+		top:30px;
+		right:5px;
+	}
+	.fix1{
+		border:2px solid black;
+		border-radius:50%;
+		padding:10px;
+		position:fixed;
+		bottom:10px;
+		right:5px;
+		
+	}
+	
+		.background{
+		background-image:url('../image/r.JFIF ');
+		background-position:left center;
+		background-size:cover;
+		background-repeat:no-repeat;
+		width:100%;		
+		height:100vh;
+		position:relative;
+		z-index:-2;
+	}
+
+	.position{
+		position:relative;
+	}
+	.cover{
+		background:#000;
+		height:100%;
+		width:100%;
+		position:absolute;
+		top:0;
+		opacity:0.5;
+		z-index:-1;
+	}
+	
+	.position img{
+		height:100vh;
+		width:100%;
+	}
+	.cover-2{
+		background:#000;
+		height:100%;
+		width:100%;
+		position:absolute;
+		top:0;
+		opacity:0.5; 
+	}
+	
+	li{
+		list-style:none;
+		margin:0 20px;
+		color:#fff;	
+	}
+	ul{
+		padding:20px 0px;
+		background-color:#000;
+		display:flex;
+		justify-content: center;
+		position:sticky;
+		bottom:10px;
+		z-index:999;
+	}
+	.a-1{
+		position:relative;
+	}
+	
+	.background-1{
+		background:green;
+		height:100vh;
+		width:100%;
+		margin:10px;
+		
+	}
+	.background-2{
+		background:black;
+		width:40%;
+		height:55%;
+		position:absolute;
+		top:100px;
+		left:25%;
+		
+	}
+	.a-2{
+		position:relative;
+	}
+	.background-3{
+		background:green;
+		height:100vh;
+		width:100%;
+		margin:180px;
+		
+	}
+	.background-4{
+		background:yellow;
+		width:100%;
+		height:100vh;
+		position:absolute;
+		bottom:150px;
+		right:150px;
+	}
+	.button{
+		cursor: pointer;
+		padding:12px 20px;
+		
+	}
+	.button:hover{
+		background-color:blue;
+		color:red;
+		
+	} 
+	.parent{
+		width:fit-content;
+		position:relative;
+		
+	}
+	.parent:hover .down{
+		width:100%;
+		display:block;
+		
+	}
+	.down{
+		width:100%;
+		display:none;
+		top:30px;
+		
+	}
+	.parent .down p:hover{
+		background-color:yellow;
+		color:red;
+	}
+	.button-1{
+		cursor:pointer;
+		padding:10px 20px;
+	}
+	.button-1:hover{
+		background-color:black;
+		color:white;
+		
+	}
+	.down-1{
+		display:none;
+		width:100%;
+	
+	}
+	.parent-1:hover .down-1{
+			
+		display:block;
+	}
+	.parent-1{
+		width:fit-content;
+	}
+	.form-1{
+		border:2px solid black;
+		max-width:400px;
+		height:400px;
+		margin:auto;
+		border-radius:5px;
+		padding:15px;
+	}
+	.form-2{
+		border:35px solid yellow;
+		max-width:200px;
+		height:205px;
+		margin:auto;
+		border-radius:5px;
+		padding:15px;
+		text-align:center;
+		
+	}
+	.bag{
+		background-color:green;
+		width:500px;
+		height:500px;
+	}
+	.bag-1{
+		background-color:white;
+		width:300px;
+		height:300px;
+		position:absolute;
+		top: 100px;
+		left: 100px;
+	} 
+	.position-relative{
+		position:relative;
+		text-align:center;
+		margin:10px;
+		padding:10px;
+		
+	}
+	
+	.after-custom{
+	}
+	.after-custom img{
+		width:50%;		
+	}
+	.after-custom p::after { 
+	  content: "Read this -";
+	  background-color: yellow;
+	  color: red;
+	  font-weight: bold; 
+}
+	.fa-user{
+		color:white;
+		
+		border:10px solid green;
+		border-radius:70%;
+		background-color:green;
+	}
+	.fa-user{
+		width:3.5%;
+		height:37px;
+	}
+	.form-22{
+		position:relative;
+	}
+	.fa-user{
+		position:absolute;
+		top:5px;
+		left:47.1%;
+	}
+	.log{
+		width:170px;
+		background-color:green;
+		border-color:green;
+		color:white;
+		cursor:pointer;
+	}
+	.tex{
+		color: darkgrey;
+	}
+	

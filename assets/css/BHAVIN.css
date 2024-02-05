@@ -1,0 +1,51 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Lato:wght@400;700;900&family=Oswald:wght@400;600;700&display=swap');
+/*font-family: 'Gajraj One', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.background{
+	background:blue;
+	height:20px;
+}
+.background-1{
+	background:black;
+	height:20px;
+	opacity:0.8;
+}
+.background-2{
+	background:red;
+	height:20px;
+	opacity:0.6;
+}
+.background-3{
+	background:green;
+	height:20px;
+	opacity:0.6;
+}
+.background-4{
+	background:yellow;
+	height:20px;
+	opacity:0.6;
+}
+.background-5{
+	background:gray;
+	height:20px;
+	opacity:0.6;
+}
+.background-6{
+	background:blue;
+	height:20px;
+	opacity:0.6;
+}
+.background-7{
+	background:black;
+	height:20px;
+	opacity:0.6;
+}
+body{
+	box-sizing:border-box;
+}
